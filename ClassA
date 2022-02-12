@@ -1,0 +1,14 @@
+class ClassA {
+
+    ClassA() { }
+
+    public static void main(String[] args) {
+        System.out.println(new ClassA().sum(10, 20));
+    }
+
+
+    public int sum(int a, int b) {
+        return a + b;
+    }
+
+}
