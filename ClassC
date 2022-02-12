@@ -9,7 +9,7 @@ class ClassC {
 
 
     public void hello(String name) {
-        return "Hello " + name + " !!!!";
+        return "Salam " + name + " !!!!";
     }
 
 }
