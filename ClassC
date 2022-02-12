@@ -1,0 +1,15 @@
+class ClassC {
+
+    ClassC() {
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new ClassC().hello("Ahmad"));
+    }
+
+
+    public void hello(String name) {
+        return "Hello " + name;
+    }
+
+}
