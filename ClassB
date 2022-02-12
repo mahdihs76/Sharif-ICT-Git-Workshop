@@ -1,0 +1,15 @@
+class ClassB {
+
+    ClassB() {
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new ClassB().divide(30, 5));
+    }
+
+
+    public int divide(int a, int b) {
+        return a / b;
+    }
+
+}
